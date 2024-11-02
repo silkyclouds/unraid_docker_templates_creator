@@ -3,13 +3,6 @@
 ## Overview
 The **Unraid Docker Templates Creator** is a Python script designed to assist users in generating XML templates for Docker containers in Unraid. This tool is particularly useful for users who have lost their XML files due to backup failures or other issues. By converting Docker container configurations from JSON (obtained via `docker inspect`) to XML, users can quickly restore their templates and continue managing their containers efficiently.
 
-## Demo Video
-
-<video width="640" height="480" controls>
-  <source src="unraid_template_creator.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ## Why Use This Tool?
 If you’ve ever lost your XML template files, recovering the configurations for your Docker containers can be a hassle. This tool automates the process of retrieving container information and converting it into the appropriate XML format needed by Unraid. With this script, you can:
 - **Quickly regenerate lost XML templates** for your running and non-running Docker containers.
